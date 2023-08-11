@@ -12,7 +12,7 @@ function hideLoadingTexts() {
 }
 
 function showMessage() {
-  // loadingSpinner.style.display = 'none';
+  loadingSpinner.style.display = 'none';
   hideLoadingTexts();
   message.style.display = 'block';
 }
